@@ -1,0 +1,62 @@
+body {
+    display:flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+canvas {
+  border: solid 1px rgb(0, 0, 0);
+}
+
+main {
+    position: relative;
+}
+
+img, pre {
+    background-color: white;
+}
+
+pre {
+    padding:1rem;
+}
+
+.guidance {
+    order: 99;
+    background-color: #eeeeee;
+    padding: 2em;
+    margin-top: 1em;
+}
+
+.guidance h2 {
+    width:100%;
+
+}
+
+.block {
+    display: block;
+}
+
+.margin-bottom {
+    margin-bottom: 2em;
+}
+
+.hint {
+    min-width: 100px
+}
+
+.fade-in {
+    animation: fade-in 60s;
+    overflow: hidden;
+}
+
+@keyframes fade-in {
+    0% {
+        height: 0;
+    }
+    99% {
+        height: auto;
+    }
+    100% {
+        height: auto;
+    }
+} 
